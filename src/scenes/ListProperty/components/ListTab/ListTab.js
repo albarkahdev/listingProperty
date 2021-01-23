@@ -100,22 +100,23 @@ const SecondRoute = () => {
     />
   )
 };
+
 const ThirdRoute = () => {
   const data = [
     {
       photo_profile: PhotoProfile.pp_male,
       name: 'Henry Scott',
       location: 'Century 21 BSD City',
-      image: Property.property_2,
+      image: Property.property_3,
       property_name: 'Nava Park BSD City',
       property_price: 'Rp 6.500.000.000',
       property_type: 'Rumah',
-      is_property_rented_or_sold: 'Dijual',
+      is_property_rented_or_sold: 'Disewa',
       property_address: 'Jl. Edutown Kav III.1, BSD, Tangerang Selatan',
       number_of_bedrooms: '3+1',
       number_of_bathrooms: '3+1',
       surface_area: '300M',
-      sold_status: 'Terjual',
+      sold_status: 'TERJUAL',
       commission: '2%',
     },
     {
@@ -132,7 +133,7 @@ const ThirdRoute = () => {
       number_of_bedrooms: '4',
       number_of_bathrooms: '4',
       surface_area: '275M',
-      sold_status: 'Tersewa',
+      sold_status: 'TERSEWA',
       commission: '2%',
     },
   ]
@@ -168,7 +169,7 @@ const ListTab = () => {
     const renderScene = SceneMap({
       listing: FirstRoute,
       favorite: SecondRoute,
-      arsip: SecondRoute,
+      arsip: ThirdRoute,
     });
   
     return (
