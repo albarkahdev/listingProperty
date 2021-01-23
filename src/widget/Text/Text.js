@@ -75,7 +75,14 @@ const mode_styles = StyleSheet.create({
         textAlign: 'left',
         fontSize: 14,
         lineHeight: 18,
-    }
+    },
+    sub_titile_card: {
+        fontFamily: 'Avenir Next LT Pro Regular',
+        color: colors.blackBekko,
+        textAlign: 'left',
+        fontSize: 10,
+        lineHeight: 14,
+    },
 });
 
 const decoration_styles = StyleSheet.create({

@@ -7,5 +7,6 @@ export default {
     grey: '#838383',
     greyYoung: '#979797',
     greyLine: '#F2F2F2',
+    greyBackground: '#F9F9F9',
     green: '#71C392',
 };

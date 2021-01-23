@@ -3,6 +3,7 @@ import { View, StyleSheet, Dimensions } from 'react-native';
 import { TabView, SceneMap, TabBar } from 'react-native-tab-view';
 import colors from '../../../../themes/colors';
 import TextCustom from '../../../../widget/Text/Text';
+import ListingTab from '../Tabs/ListingTab/ListingTab';
 
 const FirstRoute = () => (
   <View style={[styles.scene, { backgroundColor: '#ff4081' }]} />
@@ -28,7 +29,7 @@ const ListTab = () => {
     ]);
   
     const renderScene = SceneMap({
-      listing: FirstRoute,
+      listing: ListingTab,
       favorite: SecondRoute,
       arsip: FirstRoute,
     });
