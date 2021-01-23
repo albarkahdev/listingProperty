@@ -98,6 +98,48 @@ const mode_styles = StyleSheet.create({
         lineHeight: 15,
         letterSpacing: 2,
     },
+    title_description_card: {
+        fontFamily: 'Avenir Next LT Pro Regular',
+        color: colors.blackBekko,
+        textAlign: 'left',
+        fontSize: 14,
+        lineHeight: 19,
+    },
+    ownership_property: {
+        fontFamily: 'Avenir Next LT Pro Demi',
+        color: colors.blackBekko,
+        textAlign: 'center',
+        fontSize: 8,
+        lineHeight: 10,
+    },
+    price_property: {
+        fontFamily: 'Avenir Next LT Pro Bold',
+        color: colors.blackBekko,
+        textAlign: 'left',
+        fontSize: 20,
+        lineHeight: 20,
+    },
+    type_property: {
+        fontFamily: 'Avenir Next LT Pro Demi',
+        color: colors.blackBekko,
+        textAlign: 'left',
+        fontSize: 14,
+        lineHeight: 14,
+    },
+    is_rented_property: {
+        fontFamily: 'Avenir Next LT Pro Demi',
+        color: colors.blackBekko,
+        textAlign: 'center',
+        fontSize: 10,
+        lineHeight: 12,
+    },
+    address_property: {
+        fontFamily: 'Avenir Next LT Pro Medium',
+        color: colors.blackBekko,
+        textAlign: 'left',
+        fontSize: 10,
+        lineHeight: 14,
+    },
 });
 
 const decoration_styles = StyleSheet.create({
