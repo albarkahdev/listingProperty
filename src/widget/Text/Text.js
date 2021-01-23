@@ -83,6 +83,21 @@ const mode_styles = StyleSheet.create({
         fontSize: 10,
         lineHeight: 14,
     },
+    promo_text: {
+        fontFamily: 'Avenir Next LT Pro Bold',
+        color: colors.blackBekko,
+        textAlign: 'left',
+        fontSize: 22,
+        lineHeight: 23,
+    },
+    text_sold: {
+        fontFamily: 'Avenir Next LT Pro Demi',
+        color: colors.yellowPrimary,
+        textAlign: 'center',
+        fontSize: 14,
+        lineHeight: 15,
+        letterSpacing: 2,
+    },
 });
 
 const decoration_styles = StyleSheet.create({
