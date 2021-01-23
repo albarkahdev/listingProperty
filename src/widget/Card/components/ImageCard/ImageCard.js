@@ -16,7 +16,7 @@ const ImageCard = () => {
                 <TextCustom mode="sub_titile_card" color={colors.white} position="left">Komisi</TextCustom>
                 <TextCustom mode="promo_text" color={colors.white}>2%</TextCustom>
             </View>
-            <View style={{position: 'absolute', left: (WIDTH * 0.5) - 60, top: 37, backgroundColor: '#FFFFFFE6', width: 120, height: 36, borderRadius: 5, transform: [{rotate: '-18deg'}]}}>
+            <View style={{position: 'absolute', left: (WIDTH * 0.5) - 60, top: 37, backgroundColor: '#FFFFFFE6', width: 120, height: 36, borderRadius: 5, transform: [{rotate: '-12deg'}]}}>
                 <View style={{flex: 1, borderStyle: 'dashed', borderColor: colors.yellowPrimary, borderWidth: 2, borderRadius: 5, justifyContent: 'center', alignItems: 'center'}}>
                     <TextCustom mode="text_sold">TERJUAL</TextCustom>
                 </View>

@@ -110,7 +110,7 @@ const mode_styles = StyleSheet.create({
         color: colors.blackBekko,
         textAlign: 'center',
         fontSize: 8,
-        lineHeight: 10,
+        lineHeight: 8,
     },
     price_property: {
         fontFamily: 'Avenir Next LT Pro Bold',
@@ -139,6 +139,20 @@ const mode_styles = StyleSheet.create({
         textAlign: 'left',
         fontSize: 10,
         lineHeight: 14,
+    },
+    label_action_button: {
+        fontFamily: 'Avenir Next LT Pro Medium',
+        color: colors.grey,
+        textAlign: 'left',
+        fontSize: 10,
+        lineHeight: 14,
+    },
+    description_action_button: {
+        fontFamily: 'Avenir Next LT Pro Bold',
+        color: colors.blackBekko,
+        textAlign: 'left',
+        fontSize: 16,
+        lineHeight: 16,
     },
 });
 

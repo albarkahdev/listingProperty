@@ -10,7 +10,7 @@ const DescriptionCard = () => {
 		<View style={{paddingHorizontal: 10, paddingVertical: 5}}>
 			<View style={{flexDirection: 'row', justifyContent: 'space-between', marginBottom: 7}}>
 				<TextCustom mode="title_description_card">B Residence BSD Signature Lotus …</TextCustom>
-				<View style={{backgroundColor: colors.blackBekko, borderRadius: 20, paddingHorizontal: 8, paddingVertical: 3}}>
+				<View style={{backgroundColor: colors.blackBekko, borderRadius: 20, paddingHorizontal: 8, paddingVertical: 3, justifyContent: 'center'}}>
 					<TextCustom mode="ownership_property" color={colors.white}>PRIVATE</TextCustom>
 				</View>
 			</View>
@@ -21,7 +21,7 @@ const DescriptionCard = () => {
 					<TextCustom mode="is_rented_property" color={colors.white}>Disewa</TextCustom>
 				</View>
 			</View>
-			<View style={{flexDirection: 'row', alignItems: 'center'}}>
+			<View style={{flexDirection: 'row', alignItems: 'center', paddingBottom: 4, borderBottomWidth: 1, borderBottomColor: colors.greyLine}}>
 				<View style={{width: 7, height: 9, backgroundColor: colors.grey, marginRight: 6}} />
 				<TextCustom mode="address_property" color={colors.grey}>Jl. Edutown Kav III.1, BSD, Tangerang Selatan</TextCustom>
 			</View>
