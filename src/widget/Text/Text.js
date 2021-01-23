@@ -70,6 +70,12 @@ const mode_styles = StyleSheet.create({
         fontSize: 12,
         lineHeight: 16,
     },
+    label_tab: {
+        fontFamily: 'Avenir Next LT Pro Demi',
+        textAlign: 'left',
+        fontSize: 14,
+        lineHeight: 18,
+    }
 });
 
 const decoration_styles = StyleSheet.create({
